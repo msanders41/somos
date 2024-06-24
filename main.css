@@ -161,7 +161,7 @@ input[type="reset"],
 /*********************************************************************************/
 
 #intro {
-	background: url(images/overlay.png), url('images/shingle-roof.jpeg');
+	background: url(images/overlay.png), url('images/archshingle-roof.jpeg');
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, bottom center;
@@ -179,7 +179,7 @@ input[type="reset"],
 }
 
 #two {
-	background: url(images/overlay.png), url('images/shingle-roof.jpeg');
+	background: url(images/overlay.png), url('images/archshingle-roof.jpeg');
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, bottom center;
