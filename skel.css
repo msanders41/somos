@@ -62,13 +62,13 @@
 	
 }
 	.box2.content {
+		background-color: rgba(64,64,64,0.25);
 		width: 100%;
 		transition: margin 0.2s ease-in-out;
 		font-size: 14pt;
 		align-self: center;
 		line-height: 0;
 		margin-top: 0;
-		/*object-fit: fill;*/
 	}
 .box {
 	display: flex;
