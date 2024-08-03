@@ -30,7 +30,9 @@ h2 {
 	}
 
 #phone {
-	margin-right: 12em;
+	position: relative;
+	margin-top: 0px;
+	margin-right: auto;
 	font-weight: bold;
 }
 
@@ -380,7 +382,7 @@ button[type="submit"]:hover {
     background-color: #45a049;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1125px) {
   .nav li:not(:last-child) {display: none;}
   .nav a.icon {
     float: right;
@@ -391,8 +393,11 @@ button[type="submit"]:hover {
   }
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1125px) {
   .nav.responsive {position: relative;}
+  .nav.responsive li #phone {
+  	position: fixed;
+  }
   .nav.responsive li.icon {
     position: absolute;
     left: 0;

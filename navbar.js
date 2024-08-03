@@ -5,4 +5,9 @@ function myFunction() {
   } else {
     x.className = "nav";
   }
+
+  var y = document.getElementById("phone")
+  if (y.className === "nav") {
+  	x.className += " responsive"
+  }
 }
